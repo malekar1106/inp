@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form for covid</title>
+    <link rel="stylesheet" href="regcovid.css">
+    <style>
+        body{
+            background-color:rgb(209, 186, 228);
+        }
+    </style>
+</head>
+<body>
+    <!--Design a Registration Form for Covid vaccine using HTML5 and inline/external/internal
+CSS.-->
+<div align="center" id="title">
+    <hr>
+    <h2> <font color="" face="calibri" size="10" >COVID REGISTRATION FORM</font></h2>
+    <hr>
+</div>
+<div class="regform"><font face="calibri">
+<form><br>
+
+    <h3 style="color:rgb(86, 25, 86);"><font color="" size="">REGISTER NOW</font></h3>
+    <label for="fname">Full Name : </label>
+    <input type="text" id="fname" class="input" placeholder="Your name here" name="fname" ><br><br>
+
+    <label for="fname1">Email Id : </label>
+    <input type="text" id="fname1" class="input" placeholder="Your email id" name="fname1" ><br><br>
+
+    <label for="fname">Contact No.:  </label>
+    <input type="text" id="fname" class="input" placeholder="Your contact number" name="fname" ><br><br>
+
+    <label for="gender" id="gen">Select Gender :</label><br><br>
+    <input type="radio" id="g1" name="gen" value="Male"><i id="gen1">Male</i><br>
+    <input type="radio" id="g2" name="gen" value="Male"><i id="gen2">Female</i><br>
+    <input type="radio" id="g3" name="gen" value="Male"><i id="gen3">Other</i><br><br>
+
+
+    
+
+    <label for="fname" class="lab">Vaccination status :  </label><br><br>
+    <input type="checkbox" id="vacc1" name="vacc" value="Vacc" ><i id="vac1">I'm Fully Vaccinated</i><br>
+    <input type="checkbox" id="vacc2" name="vacc" value="Vacc" ><i id="vac2">I'm partially Vaccinated</i><br>
+    <input type="checkbox" id="vacc3" name="vacc" value="Vacc" ><i id="vac3">Not vaccinated</i><br><br>
+
+    <button id="button" onclick="alert('Registered successfully!')">Submit</button>
+</font>
+
+</form>
+</div>
+</body>
+</html>

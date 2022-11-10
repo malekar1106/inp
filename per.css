@@ -1,0 +1,13 @@
+#photo{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    margin-left: 1250px;
+    margin-top: 10px;
+    
+}
+
+#name{
+    margin-top: -180px;
+    margin-left: 30px;
+}
